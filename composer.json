@@ -1,0 +1,16 @@
+{
+  "name": "oracleweb/local",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "App\\Routes\\": "routes/"
+    }
+  },
+  "require": {
+    "php": "^8.4",
+    "ext-odbc": "*"
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
