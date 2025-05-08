@@ -1,6 +1,7 @@
 <?php
 namespace App\Models;
 
+// Фіча. Бо по іншому не працювало.
 putenv("TNS_ADMIN=I:\\Programs\\Oracle_Database_11g_R2_11.2.0.4_win-x64\\product\\11.2.0\\dbhome_1\\network\\admin");
 
 class Database
